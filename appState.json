@@ -1,0 +1,80 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2ff620d1-6da8-44af-b811-ae8f9a797bd3": {
+        "id": "2ff620d1-6da8-44af-b811-ae8f9a797bd3",
+        "parent": null,
+        "name": "p3p3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5165e6bc-f4ee-4c57-abd1-af22e51bbb9b"
+        ],
+        "isRemovable": false,
+        "filePath": "p3p3"
+      },
+      "5165e6bc-f4ee-4c57-abd1-af22e51bbb9b": {
+        "id": "5165e6bc-f4ee-4c57-abd1-af22e51bbb9b",
+        "parent": "2ff620d1-6da8-44af-b811-ae8f9a797bd3",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "p3p3/lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "2ff620d1-6da8-44af-b811-ae8f9a797bd3",
+    "openFiles": [
+      "5165e6bc-f4ee-4c57-abd1-af22e51bbb9b"
+    ],
+    "currentFileId": "5165e6bc-f4ee-4c57-abd1-af22e51bbb9b",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "p3p3",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "javascript",
+    "lastSave": 1580365830159
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "p3p3",
+      "url": "https://github.com/zgma-test/p3p3"
+    }
+  }
+}
